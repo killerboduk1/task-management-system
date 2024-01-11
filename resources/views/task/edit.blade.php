@@ -57,7 +57,7 @@
                                 <input name="image" class="form-control" type="file" id="formFile">
                               </div>
                               @if($errors->has('image'))
-                              <div class="text-danger p-2">{{ $errors->first('image') }}</div>
+                                <div class="text-danger p-2">{{ $errors->first('image') }}</div>
                               @endif
                             <div class="mb-0 mt-2">
                                 <button type="submit" class="btn btn-primary w-100">Submit</button>

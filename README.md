@@ -8,9 +8,9 @@
 - runs these commands
 
 ```bash
- composer install
- php artisan migrate
- php artisan db:seed
+composer install
+php artisan migrate
+php artisan storage:link
 ```
 - run these to generate the key
 
