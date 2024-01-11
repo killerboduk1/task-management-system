@@ -1,0 +1,11 @@
+.vertical-align {
+    vertical-align: middle;
+}
+.page-title-centered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#task-result-id:hover {
+    cursor: pointer;
+}
