@@ -13,13 +13,16 @@ php artisan migrate
 php artisan storage:link
 ```
 - run these to generate the key
-
 ```bash
 php artisan key:generate
 php artisan optimize
 php artisan config:cache
 ```
- 
+- And then run the server
+```bash 
+php artisan serve
+```
+
  ## Features
 
 - Authentication login / register
