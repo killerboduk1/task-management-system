@@ -18,6 +18,7 @@ php artisan storage:link
 php artisan key:generate
 php artisan optimize
 php artisan config:cache
+php artisan route:clear
 ```
 - And then run the server
 ```bash 
